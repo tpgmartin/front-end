@@ -21,3 +21,110 @@ Styleguides providing guidelines on writing CSS
 		background: rgba(0,0,0,0.6);
 	}
 
+### Naming conventions
+
+Use names that are specific and reflect the purpose of that element. Use generic names where needed.
+
+**Keep Things Generic**
+Keep class names as short as possible, but don't compromise readibility
+
+	/* Generic */
+	.nav {}
+
+	/* Specific */
+	.time-widget-handle {}
+
+	/* Bad */
+	.navigation {}
+	.atr {}
+
+	/* Good */
+	.nav {}
+	.author {}
+
+**No Tags**
+Avoid using elements in selectors. There should be no need to use them and also helps with performance
+
+	/* Bad */
+	ul.nav {}
+	span.error {}
+
+	/* Good */
+	.nav {}
+	.error {}
+
+**Shortcodes**
+
+Use shortcodes where possible.
+
+	/* Bad */
+	.widget {
+		padding-top: 20px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		border-top-color: #CCC;
+		border-top-style: solid;
+		border-top-width: 1px;
+		color: #FF0000;
+	}
+
+	/* Good */
+	.widget {
+		padding: 20px 10px;
+		border: 1px solid #CCC;
+		color: #F00;
+	}
+
+**Namespacing**
+
+Use namespacing to help maintain code and prevent conflicts with other code
+
+	/* Good */
+	.time-widget {}
+	.time-widget-clock-face {}
+	.time-widget-big-handle {}
+	.time-widget-little-handle {}
+
+**States**
+
+When using a class to describe a state, make sure it falls within a namespace
+
+	/* Bad */
+	.selected {}
+	.disabled {}
+
+	/* Good */
+	.time-widget-clock-face.selected {}
+	.time-widget-clock-face.disabled {}
+
+
+### Formatting Rules
+
+Use a semi-colon after every line. Add a space after every colon. Add a space before curly brace.
+
+	/* Bad */
+	.widget{
+		background: #F00;
+		color:#FFF
+	}
+
+	/* Good */
+	.widget {
+		background: #F00;
+		color: #FFF;
+	}
+
+Separate selectors onto a new line
+
+	/* Bad */
+	a, a:hover, a:focus {
+		color: #F00;
+	}
+
+	/* Good */
+	a,
+	a:hover,
+	a:focus {
+		color: #F00;
+	}
