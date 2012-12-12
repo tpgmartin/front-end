@@ -15,11 +15,13 @@ Styleguides providing guidelines on writing CSS
 
 **Example**
 
+	```css
 	.time-widget {
 		border: 1px solid #CECECE;
 		color: #F00;
 		background: rgba(0,0,0,0.6);
 	}
+	```
 
 ### Naming conventions
 
@@ -28,6 +30,7 @@ Use names that are specific and reflect the purpose of that element. Use generic
 **Keep Things Generic**
 Keep class names as short as possible, but don't compromise readibility
 
+	```css
 	/* Generic */
 	.nav {}
 
@@ -41,10 +44,12 @@ Keep class names as short as possible, but don't compromise readibility
 	/* Good */
 	.nav {}
 	.author {}
+	```
 
 **No Tags**
 Avoid using elements in selectors. There should be no need to use them and also helps with performance
 
+	```css
 	/* Bad */
 	ul.nav {}
 	span.error {}
@@ -52,11 +57,13 @@ Avoid using elements in selectors. There should be no need to use them and also 
 	/* Good */
 	.nav {}
 	.error {}
+	```
 
 **Shortcodes**
 
 Use shortcodes where possible.
 
+	```css
 	/* Bad */
 	.widget {
 		padding-top: 20px;
@@ -75,21 +82,25 @@ Use shortcodes where possible.
 		border: 1px solid #CCC;
 		color: #F00;
 	}
+	```
 
 **Namespacing**
 
 Use namespacing to help maintain code and prevent conflicts with other code
 
+	```css
 	/* Good */
 	.time-widget {}
 	.time-widget-clock-face {}
 	.time-widget-big-handle {}
 	.time-widget-little-handle {}
+	```
 
 **States**
 
 When using a class to describe a state, make sure it falls within a namespace
 
+	```css
 	/* Bad */
 	.selected {}
 	.disabled {}
@@ -97,12 +108,14 @@ When using a class to describe a state, make sure it falls within a namespace
 	/* Good */
 	.time-widget-clock-face.selected {}
 	.time-widget-clock-face.disabled {}
+	```
 
 
 ### Formatting Rules
 
 Use a semi-colon after every line. Add a space after every colon. Add a space before curly brace.
 
+	```css
 	/* Bad */
 	.widget{
 		background: #F00;
@@ -114,9 +127,11 @@ Use a semi-colon after every line. Add a space after every colon. Add a space be
 		background: #F00;
 		color: #FFF;
 	}
+	```
 
 Separate selectors onto a new line
 
+	```css
 	/* Bad */
 	a, a:hover, a:focus {
 		color: #F00;
@@ -128,3 +143,4 @@ Separate selectors onto a new line
 	a:focus {
 		color: #F00;
 	}
+	```
