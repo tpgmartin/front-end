@@ -15,13 +15,13 @@ Styleguides providing guidelines on writing CSS
 
 **Example**
 
-	```css
-	.time-widget {
-		border: 1px solid #CECECE;
-		color: #F00;
-		background: rgba(0,0,0,0.6);
-	}
-	```
+```css
+.time-widget {
+	border: 1px solid #CECECE;
+	color: #F00;
+	background: rgba(0,0,0,0.6);
+}
+```
 
 ### Naming conventions
 
@@ -30,117 +30,116 @@ Use names that are specific and reflect the purpose of that element. Use generic
 **Keep Things Generic**
 Keep class names as short as possible, but don't compromise readibility
 
-	```css
-	/* Generic */
-	.nav {}
+```css
+/* Generic */
+.nav {}
 
-	/* Specific */
-	.time-widget-handle {}
+/* Specific */
+.time-widget-handle {}
 
-	/* Bad */
-	.navigation {}
-	.atr {}
+/* Bad */
+.navigation {}
+.atr {}
 
-	/* Good */
-	.nav {}
-	.author {}
-	```
+/* Good */
+.nav {}
+.author {}
+```
 
 **No Tags**
 Avoid using elements in selectors. There should be no need to use them and also helps with performance
 
-	```css
-	/* Bad */
-	ul.nav {}
-	span.error {}
+```css
+/* Bad */
+ul.nav {}
+span.error {}
 
-	/* Good */
-	.nav {}
-	.error {}
-	```
+/* Good */
+.nav {}
+.error {}
+```
 
 **Shortcodes**
 
 Use shortcodes where possible.
 
-	```css
-	/* Bad */
-	.widget {
-		padding-top: 20px;
-		padding-right: 10px;
-		padding-bottom: 20px;
-		padding-left: 10px;
-		border-top-color: #CCC;
-		border-top-style: solid;
-		border-top-width: 1px;
-		color: #FF0000;
-	}
+```css
+/* Bad */
+.widget {
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	border-top-color: #CCC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #FF0000;
+}
 
-	/* Good */
-	.widget {
-		padding: 20px 10px;
-		border: 1px solid #CCC;
-		color: #F00;
-	}
-	```
+/* Good */
+.widget {
+	padding: 20px 10px;
+	border: 1px solid #CCC;
+	color: #F00;
+}
+```
 
 **Namespacing**
 
 Use namespacing to help maintain code and prevent conflicts with other code
 
-	```css
-	/* Good */
-	.time-widget {}
-	.time-widget-clock-face {}
-	.time-widget-big-handle {}
-	.time-widget-little-handle {}
-	```
+```css
+/* Good */
+.time-widget {}
+.time-widget-clock-face {}
+.time-widget-big-handle {}
+.time-widget-little-handle {}
+```
 
 **States**
 
 When using a class to describe a state, make sure it falls within a namespace
 
-	```css
-	/* Bad */
-	.selected {}
-	.disabled {}
+```css
+/* Bad */
+.selected {}
+.disabled {}
 
-	/* Good */
-	.time-widget-clock-face.selected {}
-	.time-widget-clock-face.disabled {}
-	```
-
+/* Good */
+.time-widget-clock-face.selected {}
+.time-widget-clock-face.disabled {}
+```
 
 ### Formatting Rules
 
 Use a semi-colon after every line. Add a space after every colon. Add a space before curly brace.
 
-	```css
-	/* Bad */
-	.widget{
-		background: #F00;
-		color:#FFF
-	}
+```css
+/* Bad */
+.widget{
+	background: #F00;
+	color:#FFF
+}
 
-	/* Good */
-	.widget {
-		background: #F00;
-		color: #FFF;
-	}
-	```
+/* Good */
+.widget {
+	background: #F00;
+	color: #FFF;
+}
+```
 
 Separate selectors onto a new line
 
-	```css
-	/* Bad */
-	a, a:hover, a:focus {
-		color: #F00;
-	}
+```css
+/* Bad */
+a, a:hover, a:focus {
+	color: #F00;
+}
 
-	/* Good */
-	a,
-	a:hover,
-	a:focus {
-		color: #F00;
-	}
-	```
+/* Good */
+a,
+a:hover,
+a:focus {
+	color: #F00;
+}
+```
