@@ -75,7 +75,7 @@ var obj = {
   name: 'Ron Burgundy'
 };
 
-var name = obj[name];
+var name = obj['name'];
 ```
 
 To maximise readability, structure objects like so:
