@@ -13,8 +13,6 @@ A guide to writing CSS code
 * Class names are lowercase with hypens
 * Class names have meaningful names
 
-**Example**
-
 ```css
 .time-widget {
 	border: 1px solid #CECECE;
@@ -28,6 +26,7 @@ A guide to writing CSS code
 Use names that are specific and reflect the purpose of that element. Use generic names where needed.
 
 **Keep Things Generic**
+
 Keep class names as short as possible, but don't compromise readibility
 
 ```css
@@ -47,6 +46,7 @@ Keep class names as short as possible, but don't compromise readibility
 ```
 
 **No Tags**
+
 Avoid using elements in selectors. There should be no need to use them and also helps with performance
 
 ```css

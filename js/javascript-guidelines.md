@@ -56,22 +56,26 @@ var obj = new Object();
 var obj = {};
 ```
 
-Never use reserved words in JavaScript. (<a href="https://gist.github.com/4275925">see list here</a>)
+When writing an object parameter, use dot notation
 
 ```js
+var obj = {};
+
 // bad
-var anchorman = {
-  class: 'you stay classy San Diego',
-  default: {drink: 'Scotch'},
-  with: 'Veronica Corningstone'
-};
+obj[name] = 'Ron Burgundy';
 
 // good
-var anchorman = {
-  quote: 'you stay classy San Diego',
-  defaults: {drink: 'Scotch'},
-  partner: 'Veronica Corningstone'
+obj.name = 'Ron Burgundy';
+```
+
+When reading an object parameter, access it like you would an array
+
+```js
+var obj = {
+  name: 'Ron Burgundy'
 };
+
+var name = obj[name];
 ```
 
 To maximise readability, structure objects like so:
@@ -157,6 +161,26 @@ prefume[2] = 'Sex Panther';
 
 // good
 var perfume = ['London Gentleman', 'Blackbeard's Delight', 'Sex Panther']
+```
+
+### Reserved Words
+
+Never use reserved words in JavaScript. (<a href="https://gist.github.com/4275925">see list here</a>)
+
+```js
+// bad
+var anchorman = {
+  class: 'you stay classy San Diego',
+  default: {drink: 'Scotch'},
+  with: 'Veronica Corningstone'
+};
+
+// good
+var anchorman = {
+  quote: 'you stay classy San Diego',
+  defaults: {drink: 'Scotch'},
+  partner: 'Veronica Corningstone'
+};
 ```
 
 ### Naming conventions
