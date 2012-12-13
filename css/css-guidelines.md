@@ -66,10 +66,10 @@ Use shortcodes where possible.
 ```css
 /* Bad */
 .widget {
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
 	border-top-color: #CCC;
 	border-top-style: solid;
 	border-top-width: 1px;
@@ -78,7 +78,7 @@ Use shortcodes where possible.
 
 /* Good */
 .widget {
-	padding: 20px 10px;
+	padding: 10px 5px;
 	border: 1px solid #CCC;
 	color: #F00;
 }
