@@ -1,7 +1,7 @@
 CSS Guidelines
 ==============
 
-Styleguides providing guidelines on writing CSS
+A guide to writing CSS code
 
 ## Code Style
 
