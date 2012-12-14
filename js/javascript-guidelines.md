@@ -184,3 +184,77 @@ var anchorman = {
 ```
 
 ### Naming conventions
+
+**Variable Names**
+
+For functions, variables and methods, use camelCase
+
+```js
+// bad
+var BrickSays = 'I love carpet';
+var brick-says = 'I love desk';
+var brick_says = 'I love lamp';
+
+// good
+var brickSays = 'I killed a guy with a trident';
+```
+
+For constructors, use PascalCase
+
+```js
+// bad
+function anchorman(options) {
+  this.name = options.name;
+}
+
+var reporter = new anchorman({
+  name: 'Ron Burgundy'
+});
+
+// good
+function Anchorman(options) {
+  this.name = options.name;
+}
+
+var reporter = new Anchorman({
+  name: 'Ron Burgundy'
+});
+```
+
+**Properties**
+
+When saving a reference to `this`, use `_this`
+
+```js
+// bad
+function() {
+  var self = this;
+  return function() {
+    console.log(self);
+  }
+}
+
+// good
+function() {
+  var _this = this;
+  return function() {
+    console.log(_this);
+  }
+}
+```
+
+**Name functions**
+
+Naming functions helps with debugging
+
+```js
+// bad
+var log = function(msg) {
+  console.log(msg);
+}
+
+// good
+var log = function log(msg) {
+  console.log(msg);
+}
+```

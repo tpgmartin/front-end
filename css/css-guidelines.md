@@ -5,13 +5,14 @@ A guide to writing CSS code
 
 ## Code Style
 
-* Use soft-tabs with a two space indent.
-* Put spaces after : in property declarations.
-* Put spaces before { in rule declarations.
-* Use hex color codes #000 unless using rgba.
+* Put spaces after `:` in property declarations.
+* Put spaces before `{` in rule declarations.
+* Use hex color codes unless using rgba.
 * Hex codes to be uppercase.
+* ID are only used for JavaScript
 * Class names are lowercase with hypens
-* Class names have meaningful names
+* Class names are meaningful
+* Use indents not spaces
 
 ```css
 .time-widget {
@@ -30,12 +31,6 @@ Use names that are specific and reflect the purpose of that element. Use generic
 Keep class names as short as possible, but don't compromise readibility
 
 ```css
-/* Generic */
-.nav {}
-
-/* Specific */
-.time-widget-handle {}
-
 /* Bad */
 .navigation {}
 .atr {}
@@ -43,6 +38,12 @@ Keep class names as short as possible, but don't compromise readibility
 /* Good */
 .nav {}
 .author {}
+
+/* Generic */
+.nav {}
+
+/* Specific */
+.time-widget-handle {}
 ```
 
 **No Tags**
