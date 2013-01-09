@@ -1,0 +1,40 @@
+.timeslot {
+    position: relative;
+    padding: 3px 6px;
+    .gradient(@timeslotColor, darken(@timeslotColor, 8%));
+    border: 1px solid darken(@timeslotColor, 14%);
+    border-radius: 3px;
+    display: inline-block;
+
+    color: #000;
+    font-size: 12px;
+    white-space: nowrap;
+
+    cursor: pointer;
+    overflow: hidden;
+
+    .no-select;
+
+    &.hover,
+    &:hover {
+        background: @timeslotColor;
+    }
+
+    &.active,
+    &:active {
+        .gradient(darken(@timeslotColor, 8%), @timeslotColor);
+    }
+
+    &.disabled,
+    &[disabled] {
+        color: #666;
+        text-shadow: none;
+        opacity: 0.7;
+        border: 1px solid #BBB;
+        .gradient(@disabledButton, lighten(@disabledButton, 2%));
+    }
+
+    &.searched {
+        font-weight: bold;
+    }
+}

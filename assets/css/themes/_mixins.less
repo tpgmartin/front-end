@@ -1,0 +1,32 @@
+/***************************
+	1. MIXINS
+***************************/
+
+.gradient (@top: #F7F7F7, @bottom: #E5E5E5) {
+	background-color: @top; /* Old browsers */
+	background-image: -moz-linear-gradient(top, @top 0%, @bottom 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @top), color-stop(100%, @bottom)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, @top 0%, @bottom 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(top, @top 0%, @bottom 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(top, @top 0%, @bottom 100%); /* IE10+ */
+	background-image: linear-gradient(to bottom, @top 0%, @bottom 100%); /* W3C */
+}
+
+.box-shadow(@input) {
+	-webkit-box-shadow: @input;
+	box-shadow: @input;
+}
+
+.box-sizing(@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing: @type;
+	-ms-box-sizing: @type;
+	box-sizing: @type;
+}
+
+.no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

@@ -1,0 +1,83 @@
+@buttonColor: #900;
+@disabledButton: #E5E5E5;
+
+@timeslotColor: #EFEFEF;
+@disabledTimeslot: #EFEFEF;
+
+.btn-large {
+	display: inline-block;
+  	padding: 8px 16px;
+	.gradient(@buttonColor, darken(@buttonColor, 8%));
+	border: 1px solid darken(@buttonColor, 8%);
+	border-radius: 4px;
+
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	line-height: 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+	.no-select;
+
+	&.hover,
+	&:hover {
+		.gradient(lighten(@buttonColor, 6%), lighten(@buttonColor, 3%));
+	}
+
+	&.active,
+	&:active {
+		.gradient(lighten(@buttonColor, 0%), lighten(@buttonColor, 6%));
+	}
+
+	&.disabled,
+	&[disabled] {
+		color: #888;
+		text-shadow: none;
+		opacity: 0.7;
+		border: 1px solid #BBB;
+		.gradient(@disabledButton, lighten(@disabledButton, 2%));
+	}
+}
+
+.btn-medium {
+	display: inline-block;
+  	padding: 4px 16px;
+	.gradient(@buttonColor, darken(@buttonColor, 8%));
+	border: 1px solid darken(@buttonColor, 8%);
+	border-radius: 4px;
+
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	line-height: 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+	.no-select;
+
+	&.hover,
+	&:hover {
+		.gradient(lighten(@buttonColor, 6%), lighten(@buttonColor, 3%));
+	}
+
+	&.active,
+	&:active {
+		.gradient(lighten(@buttonColor, 0%), lighten(@buttonColor, 6%));
+	}
+
+	&.disabled,
+	&[disabled] {
+		color: #888;
+		text-shadow: none;
+		opacity: 0.7;
+		border: 1px solid #BBB;
+		.gradient(@disabledButton, lighten(@disabledButton, 2%));
+	}
+}
