@@ -6,6 +6,22 @@
 </head>
 <body>
 
+    <style>
+    pre {
+        margin: 0;
+        padding: 16px 0 0 0;
+        display: none;
+        background: #F2F2F2;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        line-height: 1;
+    }
+    code {
+        margin: 0;
+        padding: 0;
+    }
+    </style>
+
     <div class="main-wrapper">
 
         <h1>OpenTable Assests</h1>
@@ -13,10 +29,15 @@
         <section>
             <div class="section-title">components/buttons.less</div>
 
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <button class="btn btn-medium">Search</button>
                 <span class="type">.medium</span>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;button class="btn btn-medium">Search&lt;/button>
+                </code>
+            </pre>
             <div class="display-holder">
                 <button class="btn btn-medium hover">Search</button>
                 <span class="type">.hover</span>
@@ -84,12 +105,19 @@
 
         <section>
             <div class="section-title">components/timeslots.less</div>
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <button class="timeslot">6:30 PM</button>
                 <button class="timeslot searched">7:00 PM</button>
                 <button class="timeslot">7:30 PM</button>
                 <span class="type">.primary (middle is the searched timeslot)</span>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;button class="timeslot">6:30 PM&lt;/button>
+                    &lt;button class="timeslot searched">7:00 PM&lt;/button>
+                    &lt;button class="timeslot">7:30 PM&lt;/button>
+                </code>
+            </pre>
             <div class="display-holder">
                 <button class="timeslot hover">6:30 PM</button>
                 <button class="timeslot hover searched">7:00 PM</button>
@@ -112,7 +140,7 @@
 
         <section>
             <div class="section-title">components/tabs.less</div>
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <div class="tabnav">
                     <ul class="tabnav-tabs">
                         <li>
@@ -127,11 +155,28 @@
                     </ul>
                 </div>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;div class="tabnav">
+                        &lt;ul class="tabnav-tabs">
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab selected">Tab 1&lt;/a>
+                            &lt;/li>
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab">Tab 2&lt;/a>
+                            &lt;/li>
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab">Much Longer Tab 3&lt;/a>
+                            &lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                </code>
+            </pre>
         </section>
 
         <section>
             <div class="section-title">components/tabs.less</div>
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <div class="tabnav">
                     <ul class="tabnav-tabs tabnav-tabs-fixed-3">
                         <li class="first"><a href="#" class="tabnav-tab selected">Tab 1</a></li>
@@ -140,11 +185,22 @@
                     </ul>
                 </div>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;div class="tabnav">
+                        &lt;ul class="tabnav-tabs tabnav-tabs-fixed-3">
+                            &lt;li class="first">&lt;a href="#" class="tabnav-tab selected">Tab 1&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#" class="tabnav-tab">Tab 2&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#" class="tabnav-tab">Much Longer Tab 3&lt;/a>&lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                </code>
+            </pre>
         </section>
 
         <section>
             <div class="section-title">components/tabs.less</div>
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <div class="tabnav">
                     <ul class="tabnav-tabs tabnav-tabs-fixed-4">
                         <li class="first">
@@ -162,11 +218,31 @@
                     </ul>
                 </div>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;div class="tabnav">
+                        &lt;ul class="tabnav-tabs tabnav-tabs-fixed-4">
+                            &lt;li class="first">
+                                &lt;a href="#" class="tabnav-tab selected">Tab 1&lt;/a>
+                            &lt;/li>
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab">Tab 2&lt;/a>
+                            &lt;/li>
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab">Much Longer Tab 3&lt;/a>
+                            &lt;/li>
+                            &lt;li>
+                                &lt;a href="#" class="tabnav-tab">Tab 4&lt;/a>
+                            &lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                </code>
+            </pre>
         </section>
 
         <section>
             <div class="section-title">components/sprites.less</div>
-            <div class="display-holder">
+            <div class="display-holder show-code">
                 <span class="star star-rating-0_0"></span>
                 <span class="star star-rating-0_1"></span>
                 <span class="star star-rating-0_2"></span>
@@ -221,9 +297,25 @@
 
                 <span class="type">.star</span>
             </div>
+            <pre class="code">
+                <code>
+                    &lt;span class="star star-rating-0_2">&lt;/span>
+                    &lt;span class="star star-rating-2_5">&lt;/span>
+                    &lt;span class="star star-rating-4_4">&lt;/span>
+                </code>
+            </pre>
         </section>
 
     </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+    $(function() {
+        $('.show-code').click(function() {
+            $(this).next('.code').slideToggle();
+        })
+    });
+    </script>
 
 </body>
 </html>
