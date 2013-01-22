@@ -31,6 +31,26 @@ This copies all files to a new folder called 'example'. You can assign a differe
 git clone https://github.com/user/example folder
 ```
 
+### Config
+
+You can set global options or options for individual repositories.
+
+The first thing you will want to do is set your name and email. This is done by using the following commands:
+
+```git
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+These options are set globally and will be inherited by all current and new repositories. If you wish to overwrite these settings for a specific repo, then simple remove the `--global` option.
+
+```git
+git config user.email sally@example.com
+```
+
+There are a lot of configuration options. <a href="https://gist.github.com/4596493">Here are some useful settings</a>
+
+
 ### Aliases
 
 Aliases are a great way to save some typing by shortening a command (or commands) into an alias.
