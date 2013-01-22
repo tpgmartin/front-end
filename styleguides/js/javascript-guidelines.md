@@ -5,7 +5,7 @@ A guide to writing JavaScript code
 
 ## Semicolons
 
-Use semicolons at the end of assignmenets. It will reduce the risk of issues of errors occuring.
+Use semicolons at the end of assignmenets. It will reduce the risk of errors occuring.
 
 ```js
 // bad
@@ -107,42 +107,42 @@ var arr = [];
 When pushing to an array, if the array length is known then use the direct assignment over Array#push. (<a href="http://jsperf.com/array-direct-assignment-vs-push/11">Performance Tests</a>)
 
 ```js
-// bad
-var bicepCurls = [],
-    i;
+var i = 0,
+    years = 100,
+    interest = [];
 
 // bad
-for (i = 0; i < 100; i++) {
-  bicepCurls.push(i * 10);
+for (i; i < years; i++) {
+  interest.push(i * 10);
 }
 
 // good
-for (i = 0; i < 100; i++) {
-  bicepCurls[i] = i * 10;
+for (i; i < years; i++) {
+  interest[i] = i * 10;
 }
 ```
 
 If the length is unknown, then use Array#push
 
 ```js
-var bicepCurls = [],
+var interest = [],
 
 // bad
-bicepCurls[bicepCurls.length] = 'two tickets to the guns show';
+interest[interest.length] = 'two tickets to the guns show';
 
 // good
-bicepCurls.push('two tickets to the guns show');
+interest.push('two tickets to the guns show');
 ```
 
 If you need to copy an array, use the Array constructor (<a href="http://jsperf.com/converting-arguments-to-an-array/7">Performance Tests</a>)
 
 ```js
-var len = oldStore.length,
+var i = 0,
     newStore = [],
-    i;
+    len = oldStore.length;
 
 // bad
-for (i = 0; i < len; i++) {
+for (i; i < len; i++) {
   newStore[i] = oldStore[i];
 }
 
