@@ -156,11 +156,11 @@ To maximise readability, structure arrays like so:
 // bad
 var perfume = [];
 prefume[0] = 'London Gentleman';
-prefume[1] = 'Blackbeard's Delight';
+prefume[1] = 'Blackbeard\'s Delight';
 prefume[2] = 'Sex Panther';
 
 // good
-var perfume = ['London Gentleman', 'Blackbeard's Delight', 'Sex Panther']
+var perfume = ['London Gentleman', 'Blackbeard\'s Delight', 'Sex Panther']
 ```
 
 ### Reserved Words
