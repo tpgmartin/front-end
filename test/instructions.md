@@ -1,11 +1,13 @@
-OpenTable Front-End Task
+OpenTable front-end task
 ========================
 
-Greetings potential OpenTable ~~worker drone~~ employee. The following task is designed to allow us to assess a candidate's ability to produce the standard of work we're looking for, but also give them the freedom to impress us.
+Thank you for taking the time to complete our front-end test.  We hope you find it straighforward yet interesting - it is representative of the work the front-end team is currently undertaking at OpenTable.
 
-Once you've finished the task, zip it up and send it to jcatterfeld@opentable.com.
+Please fork this repository, add your completed test and submit a pull request to submit your work.
 
-## The Task
+If you have any questions along the way please feel free to contact John Catterfeld (Senior Front-End Developer) at jcatterfeld@opentable.com or tweet [@jcatterfeld][tweet].
+
+## The task
 
 Below is some acceptance criteria for each page:
 
@@ -29,6 +31,7 @@ The wireframes serve as a guideline for how the page should be laid out. Feel fr
 
 If you have any questions then don't hesitate to [email me][mailto]
 
+[tweet]: http://www.twitter.com/jcatterfeld
 [mailto]: mailto:jcatterfeld@opentable.com,bholland@opentable.com
 [api]: http://labs.benholland.me/api/data.json
 [api-rid]: http://labs.benholland.me/api/data.json?restaurantId=1234
