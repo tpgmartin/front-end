@@ -1,7 +1,7 @@
 OpenTable front-end task
 ========================
 
-Thanks for taking the time to complete our front-end test.  We hope you find it straighforward yet interesting - it is representative of the work the front-end team is currently undertaking at OpenTable.
+Thanks for taking the time to complete our front-end test.  We hope you find it straighforward yet interesting - it is representative of the work the front-end team is currently undertaking at toptable and OpenTable.
 
 Please ask any questions and submit your test to John Catterfeld (Senior Front-End Developer) at jcatterfeld@opentable.com or tweet [@jcatterfeld][tweet].
 
