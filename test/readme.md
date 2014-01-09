@@ -7,7 +7,7 @@ Please ask any questions and submit your test to John Catterfeld (Senior Front-E
 
 ## The task
 
-We would like to build a simple menu application in JavaScript with which a customer can choose a meal for two from the supplied menu, select the tip amount, and are shown the total cost.  Please include tests around your JavaScript.
+We would like to build a simple menu application in JavaScript with which a customer can choose a meal for two from the supplied menu and is shown the total cost.  Please include tests around your JavaScript.
 
 
 ### The menu
@@ -45,8 +45,6 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 ## Acceptance criteria
 
 - The total amount of the bill is displayed when dishes have been selected.
-- A dropdown of tip amounts is displayed, from which I can select 0%, 10%, 12.5%, 15% or 20%.
-- The tip drodown defaults to 12.5%.
 - An error message is displayed when I try to select an invalid menu combination.
 
 [mailto]: mailto:jcatterfeld@opentable.com
