@@ -11,6 +11,8 @@ Build a basic menu application where two users select their dishes from a suppli
 
 The application must only use HTML, CSS and JavaScript (no server-side code) and all the files required to run the app should be added to Github (or equivalent).
 
+We are expecting to see high quality and maintainable code that is covered by test cases.
+
 Once the task is complete, please supply us with a url to your repo.
 
 
