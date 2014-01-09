@@ -12,29 +12,31 @@ We would like to build a simple menu application in JavaScript from which you ca
 ### The menu
 
 #### Starters
-Soup of the day £3
-Pate £5
-Bruscetta £4.50
-Prawn Cocktail £6
+- Soup of the day £3
+- Pâté £5
+- Bruscetta £4.50
+- Prawn Cocktail £6
 
 #### Main course
-Steak £18
-Meatballs £11.50
-Salmon fillet £14
-Vegetarian lasagne £12
+- Steak £18
+- Meatballs £11.50
+- Salmon fillet £14
+- Vegetarian lasagne £12
 
 #### Deserts
-Sticky toffee pudding £4
-Tiramisu £4.50
-Choclolate cheesecake £4
-Ice cream £3.50
+- Sticky toffee pudding £4
+- Tiramisu £4.50
+- Choclolate cheesecake £4
+- Ice cream £3.50
 
 ## Acceptance criteria
 
 - Each person must have at least two courses, one of which must be a main
+- Each diner cannot have more than one of the same course
 - The two diners cannot have identical meals
-- Pierre the snobby waiter will not let you have Prawn Cocktail and Salmon fillet in the same meal
 - There is only one piece of cheesecake left
+- Pierre the snobby waiter will not let you have Prawn Cocktail and Salmon fillet in the same meal
+
 
 - Display a dropdown of tip amounts, 0%, 10%, 12.5%, 15% and 20%.
 - Automatically display an ongoing total bill
