@@ -7,7 +7,11 @@ Please ask any questions and submit your test to John Catterfeld (Senior Front-E
 
 ## The task
 
-We would like to build a simple menu application in JavaScript with which a customer can choose a meal for two from the supplied menu and is shown the total cost.  Please include tests around your JavaScript.
+Build a basic menu application where two users select their dishes from a supplied menu and are shown the total cost. The menu application must adhere to the rules set below.
+
+The application must only use HTML, CSS and JavaScript (no server-side code) and all the files required to run the app should be added to Github (or equivalent).
+
+Once the task is complete, please supply us with a url to your repo.
 
 
 ### The menu
@@ -36,8 +40,7 @@ We would like to build a simple menu application in JavaScript with which a cust
 This restaurant unfortunately has a number of rules about the meals that can be ordered.
 
 - Each person must have at least two courses, one of which must be a main.
-- Each diner cannot have more than one of the same course.
-- The two diners cannot have identical meals.
+- Each diner cannot have more than one of the same course. 
 - There is only one piece of cheesecake left.
 - Pierre the snobby waiter will not let you have prawn cocktail and salmon fillet in the same meal.
 
