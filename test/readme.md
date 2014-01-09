@@ -39,3 +39,6 @@ Ice cream £3.50
 - Display a dropdown of tip amounts, 0%, 10%, 12.5%, 15% and 20%.
 - Automatically display an ongoing total bill
 - Include JavaScript tests
+
+[mailto]: mailto:jcatterfeld@opentable.com
+[tweet]: http://www.twitter.com/jcatterfeld
