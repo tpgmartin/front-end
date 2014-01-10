@@ -33,7 +33,7 @@ Once the task is complete, please supply us with a url to your repo.
 #### Deserts
 - Sticky toffee pudding £4
 - Tiramisu £4.50
-- Chocolate cheesecake £4
+- Cheesecake £4
 - Ice cream £3.50
 
 
