@@ -3,18 +3,18 @@ OpenTable front-end task
 
 Thanks for taking the time to complete our front-end test, we hope you find it straighforward.  Please aim to spend one to two hours on this work.
 
+The application must use only HTML, CSS and JavaScript (no server-side code) and all the files required to run the app should be added to Github (or equivalent).
+
+We are expecting to see high quality and maintainable code that is covered by test cases.
+
+Once the task is complete, please supply us with a url to your repository.
+
 Please ask any questions and submit your test to John Catterfeld (Senior Front-End Developer) at [jcatterfeld@opentable.com][mailto] or tweet [@jcatterfeld][tweet].
+
 
 ## The task
 
 Build a basic menu application where two users select their dishes from a supplied menu and are shown the total cost. The menu application must adhere to the rules set below.
-
-The application must only use HTML, CSS and JavaScript (no server-side code) and all the files required to run the app should be added to Github (or equivalent).
-
-We are expecting to see high quality and maintainable code that is covered by test cases.
-
-Once the task is complete, please supply us with a url to your repo.
-
 
 ### The menu
 
