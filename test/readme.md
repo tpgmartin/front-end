@@ -32,7 +32,7 @@ The menu application must use the following dishes and adhere to the restaurant'
 - Ice cream £3.50
 
 
-## Rules
+### Rules
 
 This restaurant unfortunately has a number of rules about the meals that can be ordered.
 
@@ -44,7 +44,7 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 
 ## Acceptance criteria
 
-- The total amount of the bill is displayed when dishes have been selected.
+- The total amount of the bill is displayed when at least one dish has been selected.
 - An error message is displayed when I try to select an invalid menu combination.
 
 
