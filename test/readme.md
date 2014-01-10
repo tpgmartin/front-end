@@ -16,7 +16,7 @@ The menu application must use the following dishes and adhere to the restaurant'
 #### Starters
 - Soup of the day £3
 - Pâté £5
-- Bruscetta £4.50
+- Bruschetta £4.50
 - Prawn cocktail £6
 
 #### Main course
