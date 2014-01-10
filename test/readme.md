@@ -1,7 +1,7 @@
-OpenTable front-end task
+OpenTable front-end test
 ========================
 
-Thanks for taking the time to complete our front-end test.  Please aim to spend no more than two hours on this task.
+Thanks for taking the time to complete our front-end test.  Please aim to spend no more than two hours on this application.
 
 ## The task
 
@@ -48,6 +48,7 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 - An error message is displayed when I try to select an invalid menu combination.
 
 
+## Submission
 
 Once the task is complete, please supply us with the URL of your repository.
 
