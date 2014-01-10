@@ -44,7 +44,7 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 
 ## Acceptance criteria
 
-- The total amount of the bill is displayed when at least one dish has been selected.
+- The total bill amount is displayed when at least one dish has been selected.
 - An error message is displayed when I try to select an invalid menu combination.
 
 
