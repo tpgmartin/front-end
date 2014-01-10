@@ -1,20 +1,15 @@
 OpenTable front-end task
 ========================
 
-Thanks for taking the time to complete our front-end test, we hope you find it straightforward.  Please aim to spend one to two hours on this work.
-
-The application must use only HTML, CSS and JavaScript (no server-side code) and all the files required should be added to GitHub (or equivalent).
-
-We are expecting to see high quality and maintainable code that is covered by test cases.
-
-Once the task is complete, please supply us with the URL of your repository.
-
-Please ask any questions and submit your test to John Catterfeld (Senior Front-End Developer) at [jcatterfeld@opentable.com][mailto] or tweet [@jcatterfeld][tweet].
-
+Thanks for taking the time to complete our front-end test.  Please aim to spend no more than two hours on this task.
 
 ## The task
 
-Build a basic menu application where two users select their dishes from a supplied menu and are shown the total cost. The menu application must adhere to the rules set below.
+Build a basic application from which two users can select their dishes from a supplied dinner menu, and are shown the total cost.
+
+The application must use only HTML, CSS and JavaScript (no server-side code) and be built with high quality, maintainable code that is covered by test cases.
+
+The menu application must use the following dishes and adhere to the restaurant's rules.
 
 ### The menu
 
@@ -37,7 +32,7 @@ Build a basic menu application where two users select their dishes from a suppli
 - Ice cream £3.50
 
 
-## Menu rules
+## Rules
 
 This restaurant unfortunately has a number of rules about the meals that can be ordered.
 
@@ -51,6 +46,12 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 
 - The total amount of the bill is displayed when dishes have been selected.
 - An error message is displayed when I try to select an invalid menu combination.
+
+
+
+Once the task is complete, please supply us with the URL of your repository.
+
+Please submit your test or send any questions to John Catterfeld (Senior Front-End Developer) at [jcatterfeld@opentable.com][mailto] or tweet [@jcatterfeld][tweet].
 
 [mailto]: mailto:jcatterfeld@opentable.com
 [tweet]: http://www.twitter.com/jcatterfeld
