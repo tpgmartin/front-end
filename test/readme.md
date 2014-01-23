@@ -50,7 +50,4 @@ This restaurant unfortunately has a number of rules about the meals that can be 
 
 ## Submission
 
-Please submit the URL of your repository, or send any questions to John Catterfeld (Senior Front-End Developer) at [jcatterfeld@opentable.com][mailto] or tweet [@jcatterfeld][tweet].
-
-[mailto]: mailto:jcatterfeld@opentable.com
-[tweet]: http://www.twitter.com/jcatterfeld
+Please submit your test as an online repository including any relevant instructions.
