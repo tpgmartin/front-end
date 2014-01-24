@@ -1,0 +1,7 @@
+@font-face{
+	font-family: 'OTAssets';
+	src: url('/s/content/fonts/otassets.eot');
+    src: url('/s/content/fonts/otassets.eot?#iefix') format('embedded-opentype'),
+         url('/s/content/fonts/otassets.woff') format('woff'),
+         url('/s/content/fonts/otassets.ttf') format('truetype');
+}
