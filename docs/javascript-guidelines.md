@@ -5,7 +5,7 @@ A guide to writing JavaScript code
 
 ## Semicolons
 
-Use semicolons at the end of assignmenets. It will reduce the risk of errors occuring.
+Use semicolons at the end of assignments. It will reduce the risk of errors occuring.
 
 ```js
 // bad
