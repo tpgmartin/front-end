@@ -9,7 +9,7 @@ A guide to writing CSS code.
 * Put spaces before `{` in rule declarations.
 * Use hex color codes unless using rgba.
 * Hex codes to be uppercase.
-* ID are only used for JavaScript
+* [ID are only used for JavaScript](#ids-in-css)
 * Class names are lowercase with hypens
 * Class names are meaningful
 * Use indents not spaces
@@ -144,6 +144,15 @@ a:focus {
 	color: #F00;
 }
 ```
+
+### IDs in CSS
+
+We avoid using IDs in CSS as it impeeds our ability to build transferable components. As IDs have a higher specificity than classes if we place a reusable component (e.g. `.twitter-feed`) inside a section of a site that is targeted with ID (e.g. `#header` or `#right-col`) there is a good chance the container styles would override the component styles.
+
+IDs can and should still be used for JavaScript and for anchor links.
+
+See this demonstration of the potential difficulties - http://jsfiddle.net/csswizardry/gTZGq/1/
+
 
 ## Further reading
 
