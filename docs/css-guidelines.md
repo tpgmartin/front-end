@@ -151,7 +151,7 @@ We avoid using IDs in CSS as it impeeds our ability to build transferable compon
 
 IDs can and should still be used for JavaScript and for anchor links.
 
-See this demonstration of the potential difficulties - http://jsfiddle.net/csswizardry/gTZGq/1/
+See the potential difficulties of using IDs with the Twitter component in this example  - http://jsfiddle.net/csswizardry/gTZGq/1/.  Here is a better example of how this could be written - http://jsfiddle.net/csswizardry/gTZGq/3/
 
 
 ## Further reading
