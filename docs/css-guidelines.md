@@ -1,7 +1,7 @@
 CSS Guidelines
 ==============
 
-A guide to writing CSS code
+A guide to writing CSS code.
 
 ## Code Style
 
@@ -144,3 +144,9 @@ a:focus {
 	color: #F00;
 }
 ```
+
+## Further reading
+
+Code Smells in CSS - http://csswizardry.com/2012/11/code-smells-in-css/
+
+Object Oriented CSS - http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/
