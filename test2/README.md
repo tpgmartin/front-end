@@ -3,7 +3,6 @@ OpenTable Front End Coding Challenge
 
 To start this project:
 ```
-$ cd codingchallenge
 $ npm install
 $ node app.js
 ```
