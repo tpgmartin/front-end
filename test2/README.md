@@ -30,13 +30,13 @@ Some menu items are limited in quantity
  - if the dish is sold out, change the font color of the text on the item to #aaa and ensure a customer cannot order it
  - Maintain the state of limited items once the customer pays (ie: when you refresh the page, the limited items reflect whether or not the items have been previously ordered)
  
-create a "restaurant owner view" at /owner.  Don't worry about user validation.  The owner should be able to
+Create a "restaurant owner view" at /owner.  Don't worry about user validation.  The owner should be able to:
  - add and remove items for any menu section
  - see the current count of all items and allow them to change the quantities
  - reorder the items in each section
  - when the owner saves the restaurant details, write the changes to the file
  
-Feel free to
+Feel free to:
  - use any javascript libraries or css frameworks you wish.
  - add any node modules or middleware to app.js 
  - make it pretty in a mobile or desktop size
