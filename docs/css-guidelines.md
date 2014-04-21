@@ -12,7 +12,7 @@ A guide to writing CSS code.
 * [ID are only used for JavaScript](#ids-in-css)
 * Class names are lowercase with hypens
 * Class names are meaningful
-* Use indents not spaces
+* Use indents (soft tabs) not spaces (don't use hard tabs)
 
 ```css
 .time-widget {
