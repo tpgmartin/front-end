@@ -6,7 +6,8 @@
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , sass = require('node-sass');
 
 var app = express();
 
@@ -19,7 +20,11 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(require('less-middleware')(path.join(__dirname,'public' )));
+  app.use(sass.middleware({
+    src: path.join(__dirname,'public'),
+    dest: path.join(__dirname, '/public'),
+    debug: true,
+  }));
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
