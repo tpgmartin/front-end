@@ -18,23 +18,23 @@ Current project state
 
 Augmentations
 ---
-Menu
+1. **Menu**
   - style the menu so that it looks like menu-mock.png ( modify the file `public/stylesheets/style.scss` )
   - display the description of menu items when they exist (modify the file `views/index.jade`)
   
-Make a better display for "My Order"
+2. **Make a better display for "My Order"**
   - show what dishes have been ordered so far
   - show a count for how many of each dish has been ordered
   - include 8% tax in the total
   - allow the person to select a tip percentage between [0, 5%, 10%, 15%, 20%], calculated on the pre-tax total
   
-Some menu items are limited in quantity
+3. **Some menu items are limited in quantity**
  - for items with a limited quantity, add the word "special" to the end of the description of the item
  - display the remaining dish count if the count is less than 2
  - if the dish is sold out, change the font color of the text on the item to #aaa and ensure a customer cannot order it
  - Maintain the state of limited items once the customer pays (ie: when you refresh the page, the limited items reflect whether or not the items have been previously ordered)
  
-Create a "restaurant owner view" at /owner.  Don't worry about user validation.  The owner should be able to:
+4. **Create a "restaurant owner view" at /owner.**  Don't worry about user validation.  The owner should be able to:
  - add and remove items for any menu section
  - see the current count of all items and allow them to change the quantities
  - reorder the items in each section
