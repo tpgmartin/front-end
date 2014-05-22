@@ -1,11 +1,15 @@
 OpenTable Front End Coding Challenge
 =========
 
-To start this project:
+To start this project, in a terminal type these commands:
 ```
+$ git clone https://github.com/opentable/front-end.git
+$ cd front-end/test2/
 $ npm install
 $ node app.js
 ```
+Open up a web browser to http://localhost:3000
+
 Current project state
 ---
   - Reads in a json file that contains the restaurant and menu information.
@@ -15,8 +19,8 @@ Current project state
 Augmentations
 ---
 Menu
-  - style the menu so that it looks like menu-mock.png
-  - display the description of menu items when they exist
+  - style the menu so that it looks like menu-mock.png ( modify the file `public/stylesheets/style.scss` )
+  - display the description of menu items when they exist (modify the file `views/index.jade`)
   
 Make a better display for "My Order"
   - show what dishes have been ordered so far
