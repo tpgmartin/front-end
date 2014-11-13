@@ -25,7 +25,7 @@ The menu application must use the following dishes and adhere to the restaurant'
 - Salmon fillet £14
 - Vegetarian lasagna £12
 
-#### Deserts
+#### Desserts
 - Sticky toffee pudding £4
 - Tiramisu £4.50
 - Cheesecake £4
