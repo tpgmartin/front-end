@@ -1,13 +1,13 @@
 OpenTable front-end test
 ========================
 
-Thanks for taking the time to complete our front-end test.  Please aim to spend no more than two hours on this application.
+Thanks for taking the time to complete our front-end test.  Please aim to spend between two and three hours on this application.
 
 ## The task
 
 Build a basic application from which two users can select their dishes from a supplied dinner menu, and are shown the total cost.
 
-The application must use only HTML, CSS and JavaScript (no server-side code) and be built with high quality, maintainable code that is covered by test cases.
+The application must use only HTML, CSS and JavaScript (frameworks and allowed) and be built with high quality, maintainable code that is covered by test cases.
 
 The menu application must use the following dishes and adhere to the restaurant's rules.
 
